@@ -30,9 +30,9 @@ call switch_to_pm
 
 jmp $ ; endless jump
 
-%include "src/boot/functions/my_functions.asm"
-%include "src/boot/functions/switch_to_pm.asm"
-%include "src/boot/functions/my_pm_functions.asm"
+%include "boot/functions/my_functions.asm"
+%include "boot/functions/switch_to_pm.asm"
+%include "boot/functions/my_pm_functions.asm"
 
 [bits 32]
 

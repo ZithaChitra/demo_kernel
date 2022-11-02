@@ -2,7 +2,6 @@ Handle Interrupts
 File System
 
 Device drivers
-    - screen 
     - Keyboard Driver
     - Hard-disk Driver
 

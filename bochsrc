@@ -1,0 +1,7 @@
+megs: 128
+romimage: file=/usr/share/bochs/BIOS-bochs-legacy
+vgaromimage: file=/usr/share/bochs/VGABIOS-lgpl-latest
+floppya: image="os_image.img", status=inserted
+boot: floppy
+mouse: enabled=1
+display_library: x, options="gui_debug"
